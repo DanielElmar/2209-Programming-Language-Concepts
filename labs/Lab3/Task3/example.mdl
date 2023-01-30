@@ -1,0 +1,5 @@
+forward 10 ;
+rotate L ;
+if (obstacle 3)
+ then rotate L ; forward 1 ; rotate R
+ else forward 3 ; rotate L
