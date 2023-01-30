@@ -1,0 +1,4 @@
+$outOfRange = REPLACE FILE "foo.ttl" WHERE * * LT 0 OR * * GT 99 WITH * <http://www.cw.org/problem5/#inRange> false
+$inRange = REPLACE FILE "foo.ttl" WHERE * * GT -1 AND * * LT 100 WITH * <http://www.cw.org/problem5/#inRange> true
+$inRange2 = ADD 1 TO REPLACE FILE "foo.ttl" WHERE * * GT -1 AND * * LT 100 WITH * * *
+$outOfRange . $inRange . $inRange2

@@ -1,0 +1,7 @@
+<bar><http://www.cw.org/notpprefix/predicateC> 1 .
+<bar><http://www.cw.org/testPredA> 2 .
+<bar><http://www.cw.org/testPredB> 3 .
+<bar><http://www.cw.org/testPredC> 4 .
+<bar><http://www.cw.org/notpprefix/predicateD> 5 .
+<bar><http://www.cw.org/predicateA> 6 .
+<bar><http://www.cw.org/notpprefix/predicateE> 7 .

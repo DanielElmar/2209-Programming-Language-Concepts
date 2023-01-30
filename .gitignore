@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+.idea
+comp2209-plc.iml
+*.o
+*.hi
+*.exe

@@ -1,0 +1,1 @@
+FILE "foo.ttl" WHERE ==<http://www.cw.org/#problem2> * == true

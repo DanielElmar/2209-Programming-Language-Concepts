@@ -1,0 +1,4 @@
+$bar = FILE "bar.ttl"
+$foo = FILE "foo.ttl"
+$baz = FILE "baz.ttl" WHERE NOT (* * ==true OR * * ==false) WHERE * * LT -536870911 WHERE NOT * * GT -536870911
+$foo WHERE * ==PRED $bar ==OBJ $baz

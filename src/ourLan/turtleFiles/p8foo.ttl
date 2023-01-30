@@ -1,0 +1,31 @@
+<foo><http://www.cw.org/testPredA> 1 .
+<foo><http://www.cw.org/testPredA> 2 .
+<foo><http://www.cw.org/testPredB> 3 .
+<foo><http://www.cw.org/testPredB> 4 .
+<foo><http://www.cw.org/testPredB> 5 .
+<foo><http://www.cw.org/pprefix/predicateC><http://www.cw.org/pprefix/objectC> .
+<foo><http://www.cw.org/qprefix/predicateD><http://www.cw.org/qprefix/objectD> .
+<foo><http://www.cw.org/rprefix/predicateE><http://www.cw.org/qprefix/objectE> .
+<foo><http://www.cw.org/testPredA> 6 .
+<foo><http://www.cw.org/testPredB> 7 .
+<foo><http://www.cw.org/testPredC> 8 .
+<foo><http://www.cw.org/predicateA> 9 .
+<foo><http://www.cw.org/predicateB><http://www.cw.org/objectB> .
+<foo><http://www.cw.org/hasBool> false .
+<foo><http://www.cw.org/hasBool> true .
+<foo><http://www.cw.org/hasNegInt> -50 .
+<foo><http://www.cw.org/hasPosInt> 50 .
+<foo><http://www.cw.org/hasStringLit>"literalstring" .
+<foo><http://www.cw.org/problem3/#predicate1> true .
+<foo><http://www.cw.org/problem3/#predicate4> true .
+<foo><http://www.cw.org/testObjList> -5 .
+<foo><http://www.cw.org/testObjList> 10 .
+<foo><http://www.cw.org/testObjList> 20 .
+<foo><http://www.cw.org/testPredList> -5 .
+<foo><http://www.cw.org/testPredList> 10 .
+<foo><http://www.cw.org/testPredList> 20 .
+<foo><http://www.cw.org/problem3/#predicate2> true .
+<foo><http://www.cw.org/problem3/#predicate5> true .
+<foo><http://www.cw.org/problem3/#predicate2> true .
+<foo><http://www.cw.org/problem3/#predicate3> true .
+<foo><http://www.cw.org/problem3/#predicate6> true .

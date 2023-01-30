@@ -1,0 +1,5 @@
+$foo = FILE "foo.ttl"
+$bar = FILE "bar.ttl"
+$baz = FILE "baz.ttl"
+$comb = $foo . $baz
+$comb WHERE NOT (== SUBJ $bar == PRED $bar == OBJ $bar)

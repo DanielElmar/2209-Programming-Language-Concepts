@@ -1,0 +1,7 @@
+$intObject = FILE "foo.ttl" WHERE * * GT -536870911
+$boolTrip = $intObject WHERE * * ==true OR * * ==false
+$filteredBoolAndInt = FILE "foo.ttl" WHERE NOT * * ==OBJ $intObject WHERE NOT * * == OBJ $boolTrip
+$trueObject = REPLACE FILE "foo.ttl" WHERE * * == true WITH * * false
+$falseObject = REPLACE FILE "foo.ttl" WHERE * * == false WITH * * true
+$maxValObject = FILE "foo.ttl" WHERE * * GT -536870911
+$filteredBoolAndInt . $trueObject . $falseObject . $maxValObject

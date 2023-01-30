@@ -1,0 +1,8 @@
+<http://www.cw.org/problem10/#maxValue><http://www.cw.org/problem10/#isValue> 10 . 
+<foo><http://www.cw.org/testPredA> 1 .
+<foo><http://www.cw.org/testPredB> 2 .
+<foo><http://www.cw.org/testPredC> 3 .
+<foo><http://www.cw.org/testPredC> 11 .
+<foo><http://www.cw.org/testPredC> "test" .
+<foo><http://www.cw.org/testPredC> true .
+<foo><http://www.cw.org/testPredC> false .

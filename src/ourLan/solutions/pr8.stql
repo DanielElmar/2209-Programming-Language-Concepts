@@ -1,0 +1,7 @@
+$foo = FILE "foo.ttl"
+$bar = FILE "bar.ttl"
+$baz = FILE "baz.ttl"
+$fooO = $foo WHERE * == PRED $bar * AND * == PRED $baz *
+$barO = $bar WHERE * == PRED $foo * AND * == PRED $baz *
+$bazO = $baz WHERE * == PRED $foo * AND * == PRED $bar *
+$fooO . $barO . $bazO

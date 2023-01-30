@@ -1,0 +1,2 @@
+$foo = FILE "foo.ttl"
+$foo WHERE ==<http://www.cw.org/problem7/#subject> * * . $foo WHERE * == <http://www.cw.org/problem7/#predicate> * . $foo WHERE * * == 0 . $foo WHERE * * == -1

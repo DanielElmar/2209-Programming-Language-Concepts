@@ -1,0 +1,3 @@
+$barVar = FILE "foo.ttl"
+$fooVar = FILE "bar.ttl"
+$fooVar WHERE * * == SUBJ $barVar . $barVar WHERE * * == SUBJ $fooVar

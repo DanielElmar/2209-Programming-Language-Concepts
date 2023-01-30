@@ -1,0 +1,2 @@
+$file1 = FILE "foo.ttl" WHERE * ==<http://www.cw.org/problem3/#predicate1> * OR * ==<http://www.cw.org/problem3/#predicate2> * OR * ==<http://www.cw.org/problem3/#predicate3> *
+$file1
